@@ -54,6 +54,7 @@ Open your terminal and run:
 Bash
 git clone [https://github.com/YourUsername/Multimodal-Gemini-Assistant.git](https://github.com/YourUsername/Multimodal-Gemini-Assistant.git)
 cd Multimodal-Gemini-Assistant
+
 2️⃣ Create a Virtual Environment (Recommended)
 Keep your dependencies isolated from your system Python: 
   Bash
