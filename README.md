@@ -21,7 +21,7 @@ Designed with **Enterprise Security** and **Software Engineering Best Practices*
 Below is the architectural workflow representing how data moves securely from the client interface to the generative AI engine:
 
 +-------------------+        +--------------------+        +---------------------+
-|    User Uploads   | --->   |   Streamlit Web    | --->   |   Dual-Lookup Key   |
+|    User Uploads   | --->   |   Streamlit Web    | --->   |       Key           |
 |   Image + Prompt  |        |     Interface      |        |     Verification    |
 +-------------------+        +--------------------+        +---------------------+
                                                                       |
