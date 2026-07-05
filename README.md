@@ -110,7 +110,7 @@ I strongly believe in "learning by building"—transforming complex AI concepts 
 
 ## 🙏 Acknowledgments / Special Thanks
 
-I would like to express my sincere gratitude to **[Sir ka Naam]** for their invaluable guidance, continuous encouragement, and mentorship throughout the development of this project.
+I would like to express my sincere gratitude to **[omkar nallagoni sir]** for their invaluable guidance, continuous encouragement, and mentorship throughout the development of this project.
 
 * **Mentor:** Omkar nallagoni sir(https://www.linkedin.com/in/nallagoni-omkar-783271188/?skipRedirect=true)
 * **Role:** Project Guide & Mentor
