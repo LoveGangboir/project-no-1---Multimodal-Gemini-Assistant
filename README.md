@@ -49,20 +49,21 @@ Follow these instructions to configure and execute this application on your loca
 
 1️⃣ Clone the Repository
 Open your terminal and run:
+
 Bash
 git clone [https://github.com/YourUsername/Multimodal-Gemini-Assistant.git](https://github.com/YourUsername/Multimodal-Gemini-Assistant.git)
 cd Multimodal-Gemini-Assistant
-
 2️⃣ Create a Virtual Environment (Recommended)
-Keep your dependencies isolated from your system Python:
-Bash
-# On Windows
-python -m venv venv
-venv\Scripts\activate
-# On macOS/Linux
-python3 -m venv venv
-source venv/bin/
-
+Keep your dependencies isolated from your system Python: 
+  Bash
+  - On Windows
+      python -m venv venv
+      venv\Scripts\activate
+  
+   - On macOS/Linux
+      python3 -m venv venv
+      source venv/bin/activate
+   
 3️⃣ Install Required Dependencies
 Bash
 pip install -r requirements.txt
@@ -72,15 +73,9 @@ Get a free Gemini API key from Google AI Studio. Choose one of the two secure me
 
 Method A: Streamlit Secrets (Recommended for UI Devs)
 Create a folder named .streamlit, inside it create a file named secrets.toml, and add:
-Ini, TOML
-GEMINI_API_KEY = "your_actual_api_key_here"
-
-Method B: OS Environment Variables (Recommended for Backend/DevOps)
-Windows (CMD): set GEMINI_API_KEY="your_actual_api_key_here"
-Windows (PowerShell): $env:GEMINI_API_KEY="your_actual_api_key_here"
-macOS/Linux: export GEMINI_API_KEY="your_actual_api_key_here"
 
 5️⃣ Launch the Application
+
 Bash
 streamlit run app.py
 The web dashboard will automatically launch in your default browser at http://localhost:8501.
