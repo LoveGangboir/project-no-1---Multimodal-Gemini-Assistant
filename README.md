@@ -17,7 +17,7 @@ Designed with **Enterprise Security** and **Software Engineering Best Practices*
 ---
 
 ## 🏗️ System Architecture & Data Flow
-
+```
 Below is the architectural workflow representing how data moves securely from the client interface to the generative AI engine:
 
 +-------------------+        +--------------------+        +---------------------+
@@ -30,10 +30,10 @@ Below is the architectural workflow representing how data moves securely from th
 |  Clean Markdown   | <---   |  gemini-2.5-flash  | <---   |  Google GenAI SDK   |
 |  Response Display |        |  Multimodal Engine |        | Secure Client Setup |
 +-------------------+        +--------------------+        +---------------------+
-
+```
  ## 📂 Project Directory Structure
 
- 
+ ```
 Multimodal-Gemini-Assistant/
 │
 ├── .streamlit/
@@ -43,7 +43,7 @@ Multimodal-Gemini-Assistant/
 ├── requirements.txt          # Python dependencies for easy installation
 ├── .gitignore                # Security rule file preventing credential leaks
 └── README.md                 # Project documentation & setup guide
-
+```
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Step-by-Step Local Setup Guide
 Follow these instructions to configure and execute this application on your local machine within minutes:
