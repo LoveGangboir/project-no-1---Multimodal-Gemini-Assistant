@@ -31,7 +31,6 @@ Below is the architectural workflow representing how data moves securely from th
 |  Response Display |        |  Multimodal Engine |        | Secure Client Setup |
 +-------------------+        +--------------------+        +---------------------+
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
  ## 📂 Project Directory Structure
 
  
