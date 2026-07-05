@@ -27,7 +27,7 @@ Below is the architectural workflow representing how data moves securely from th
                                                                       |
                                                                       v
 +-------------------+        +--------------------+        +---------------------+
-|  Clean Markdown   | <---   |  gemini-2.5-flash  | <---   |  Google GenAI SDK   |
+|      Clean        | <---   |  gemini-2.5-flash  | <---   |  Google GenAI SDK   |
 |  Response Display |        |  Multimodal Engine |        | Secure Client Setup |
 +-------------------+        +--------------------+        +---------------------+
 ```
@@ -108,5 +108,11 @@ I strongly believe in "learning by building"—transforming complex AI concepts 
 * 🐙 **GitHub:** [Follow my projects on GitHub](https://github.com/LoveGangboir)
 * 📧 **Email:** lovegangboir1805@gmail.com
 
+## 🙏 Acknowledgments / Special Thanks
+
+I would like to express my sincere gratitude to **[Sir ka Naam]** for their invaluable guidance, continuous encouragement, and mentorship throughout the development of this project.
+
+* **Mentor:** Omkar nallagoni sir(https://www.linkedin.com/in/nallagoni-omkar-783271188/?skipRedirect=true)
+* **Role:** Project Guide & Mentor
 ---
 *If you found this project helpful or insightful, please consider giving this repository a ⭐ on GitHub!*
