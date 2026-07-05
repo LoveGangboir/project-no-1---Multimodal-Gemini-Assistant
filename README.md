@@ -103,21 +103,21 @@ This multimodal assistant is engineered to handle complex real-world workflows a
 
 ### 1️⃣ Data Analysis (DA): Business Intelligence & KPI Tracking
 * **Goal:** Extracting actionable business recommendations from complex BI dashboards without manual data slicing.
-* **Visual Input:** E-commerce Sales Dashboard / Monthly Revenue Drop KPI Report (`.png` / `.jpg`).
+* **Visual Input:** E-commerce Sales Dashboard / Monthly Revenue Drop KPI Report (`da_dashboard.jpeg`).
 * **Prompt Engineering Used:**
   > *"Act as a Lead Data Analyst. Analyze this Power BI business dashboard and perform three tasks: 1. Identify the top-performing and lowest-performing product categories. 2. Detect any sudden drop or anomaly in the monthly revenue trend. 3. Provide two actionable business recommendations for the marketing team to improve conversion rates next quarter."*
 * **Outcome:** Instantly detects revenue dip anomalies and generates strategic conversion-boosting steps for marketing teams.
 
 ### 2️⃣ Data Science (DS): Statistical Diagnostics & Model Evaluation
 * **Goal:** Evaluating machine learning model health and diagnosing statistical flaws visually.
-* **Visual Input:** ROC-AUC Curve / Seaborn Correlation Heatmap showing Multicollinearity.
+* **Visual Input:** ROC-AUC Curve / Seaborn Correlation Heatmap showing Multicollinearity (`ds_diagnostics.jpeg`).
 * **Prompt Engineering Used:**
   > *"Act as a Senior Data Scientist. Analyze this statistical diagnostic plot and answer: 1. Evaluate the predictive performance and identify potential overfitting or underfitting. 2. Check for statistical issues like multicollinearity or high variance. 3. Recommend the next best feature engineering or hyperparameter tuning step to optimize this Machine Learning pipeline."*
 * **Outcome:** Identifies feature collinearity ($r > 0.85$), diagnoses overfitting gaps, and recommends exact hyperparameter tuning and regularization steps.
 
 ### 3️⃣ Gen AI & Agentic AI: Autonomous Pipeline Building
 * **Goal:** Transforming unstructured diagrams into production-ready software architecture autonomously.
-* **Visual Input:** Hand-drawn Whiteboard Architecture Sketch / Database Schema.
+* **Visual Input:** Hand-drawn Whiteboard Architecture Sketch / Database Schema (`agentic_whiteboard.jpg`).
 * **Prompt Engineering Used:**
   > *"Act as an Autonomous Agentic AI Developer. Step 1: Reason through this unstructured whiteboard diagram and extract the architectural logic. Step 2: Automatically generate a production-ready, clean Python script using SQLAlchemy and Pandas to create this exact database schema and data ingestion pipeline without any human intervention."*
 * **Outcome:** Interprets relational logic from a rough whiteboard sketch and autonomously generates a complete Python ETL pipeline with SQLAlchemy ORM models.
