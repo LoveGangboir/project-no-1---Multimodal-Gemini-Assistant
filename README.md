@@ -104,7 +104,7 @@ This multimodal assistant is engineered to handle complex real-world workflows a
 * **Goal:** Extracting actionable business recommendations from complex BI dashboards without manual data slicing.
 * **Visual Input:** E-commerce Sales Dashboard / Monthly Revenue Drop KPI Report:
   
-  ![E-commerce Sales Dashboard](assets/da_dashboard.jpeg)
+  ![E-commerce Sales Dashboard](assets/da_dashboard.jpg)
 
 * **Prompt Engineering Used:**
   > *"Act as a Lead Data Analyst. Analyze this Power BI business dashboard and perform three tasks: 1. Identify the top-performing and lowest-performing product categories. 2. Detect any sudden drop or anomaly in the monthly revenue trend. 3. Provide two actionable business recommendations for the marketing team to improve conversion rates next quarter."*
@@ -114,7 +114,7 @@ This multimodal assistant is engineered to handle complex real-world workflows a
 * **Goal:** Evaluating machine learning model health and diagnosing statistical flaws visually.
 * **Visual Input:** ROC-AUC Curve / Seaborn Correlation Heatmap showing Multicollinearity:
   
-  ![ML Diagnostic Plot](assets/ds_diagnostics.jpeg)
+  ![ML Diagnostic Plot](assets/ds_diagnostics.png)
 
 * **Prompt Engineering Used:**
   > *"Act as a Senior Data Scientist. Analyze this statistical diagnostic plot and answer: 1. Evaluate the predictive performance and identify potential overfitting or underfitting. 2. Check for statistical issues like multicollinearity or high variance. 3. Recommend the next best feature engineering or hyperparameter tuning step to optimize this Machine Learning pipeline."*
