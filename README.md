@@ -43,6 +43,7 @@ Multimodal-Gemini-Assistant/
 ├── requirements.txt          # Python dependencies for easy installation
 ├── .gitignore                # Security rule file preventing credential leaks
 └── README.md                 # Project documentation & setup guide
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Step-by-Step Local Setup Guide
 Follow these instructions to configure and execute this application on your local machine within minutes:
@@ -70,8 +71,7 @@ pip install -r requirements.txt
 
 4️⃣ Configure Your API Key Securely
 Get a free Gemini API key from Google AI Studio. Choose one of the two secure methods below:
-
-Method A: Streamlit Secrets (Recommended for UI Devs)
+Streamlit Secrets (Recommended for UI Devs)
 Create a folder named .streamlit, inside it create a file named secrets.toml, and add:
 
 5️⃣ Launch the Application
@@ -79,6 +79,7 @@ Create a folder named .streamlit, inside it create a file named secrets.toml, an
 Bash
 streamlit run app.py
 The web dashboard will automatically launch in your default browser at http://localhost:8501.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎮 How to Use the Application
 
@@ -89,8 +90,10 @@ The web dashboard will automatically launch in your default browser at http://lo
 3.  Generate Response: Click the Generate Response primary button. Watch the asynchronous spinner while the AI analyzes the visual pixels and generates a detailed, contextual Markdown reply
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##🛡️ Security Disclaimer
+## 🛡️ Security Disclaimer
+
 This repository strictly enforces git-ignore rules (.gitignore). No API keys, access tokens, or .env/secrets.toml files are ever pushed to version control. Users must generate and supply their own authentication credentials from Google AI Studio.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 👨‍💻 About the Author
 
@@ -101,7 +104,7 @@ I am a dedicated student currently pursuing my journey in **Full Stack Data Scie
 I strongly believe in "learning by building"—transforming complex AI concepts and models into interactive, real-world applications like this assistant!
 
 * 🌐 **LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/love-gangboir-89384b327/?skipRedirect=true)
-* 🐙 **GitHub:** [Follow my projects on GitHub](https://github.com/YourUsername)
+* 🐙 **GitHub:** [Follow my projects on GitHub](https://github.com/LoveGangboir)
 * 📧 **Email:** lovegangboir1805@gmail.com
 
 ---
